@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    color: chocolate;
+}
+
+@font-face {
+    font-family: 'Pixellari';
+    src: url('Pixellari.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Pixellari', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url("fondo.jpg"); 
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+
+#boton1{
+    margin-left: 250px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: none;
+    color: inherit; 
+    cursor: pointer;
+    font-size: 1rem; 
+    padding: 0; 
+    font-family: 'Pixellari';
+}
+#boton2{
+    margin-left: 700px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: none;
+    color: inherit; 
+    cursor: pointer;
+    font-size: 1rem; 
+    padding: 0; 
+    font-family: 'Pixellari';
+}
+#er{
+    
+    margin-left: 200px;
+}
+
+.contenido {
+    margin-left: 50px;
+    display: flex;
+    align-items: center; 
+    gap: 365px; 
+}
+
+#image {
+    width: 300px; 
+    height: auto;
+}
+#seg{
+    margin-left: 700px;
+}
